@@ -13,7 +13,7 @@ def run():
     print("Extract: downloading from S3...")
     download_from_s3(
         bucket=os.getenv("S3_BUCKET"),
-        key=os.getenv("S3_KEY"),
+        s3_key=os.getenv("S3_KEY"),
         dest_path=RAW_PATH,
     )
 
