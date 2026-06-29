@@ -6,3 +6,5 @@ __pycache__/
 *.pyo
 .DS_Store
 data/raw/*.csv
+setup_github_project.py
+CLAUDE.md
